@@ -74,3 +74,14 @@ IO流的分类：
      InputStreamReader:字节流到字符流的转换；
      OutPutStreamWriter:字符流到字节流的转换；
 </pre>
+
+<pre>
+字符编码：
+
+      UTF-8：
+            用于解决国际上字符的一种多字节编码，英文1个字节，中文3个字节来编码。对于英文则节省了空间，
+      UTF8-mb4:
+            mb4就是most bytes 4的意思，专门用来兼容4字节的unicode，utf8-mb64是utf-8的超集。
+      GBK:
+         专门用来解决中文编码问题的，不论中文还是英文，都是双字节。GBK包含全部中文字符。GBK对中文节省了空间。
+</pre>
